@@ -1,5 +1,5 @@
 <p align='center' >
-  <img src='https://s2.uupload.ir/files/slackgif_mhqx.gif' width='400' />
+  <img src='https://s2.uupload.ir/files/slackgif-unscreen_2r16.gif' width='400' />
 </p>
 
 # Slack Clone
