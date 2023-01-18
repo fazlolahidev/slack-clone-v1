@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .circle {
+    @apply absolute w-32 h-32 filter blur-lg rounded-full;
+  }
+}
+
+@layer components {
+  .sidebarSize {
+    flex: 0.2;
+    height: calc(100vh - 56px);
+    overflow-y: auto;
+  }
+
+  .chatSize {
+    flex: 0.8;
+    height: calc(100vh - 56px);
+    /* overflow-y: auto; */
+  }
+
+  .loginCard {
+    width: min(600px, 100% - 2rem);
+    padding: 100px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+
+  .textGradient {
+    background: -webkit-linear-gradient(#93529E, #E0BBE6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
